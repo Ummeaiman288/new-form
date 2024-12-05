@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-auth.js"></script>
+
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>HTML Login Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <h1>Form</h1>
+            <h3>Enter your login credentials</h3>
+
+            <form action="">
+                <label for="first">
+                    Username:
+                </label>
+                <input type="text" id="first" name="first" placeholder="Enter your Username" required>
+
+                <label for="password">
+                    Password:
+                </label>
+                <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+
+              
+                 <div class="wrap">
+                    <button type="submit">
+                        login
+                    </button> </div>
+                    <!-- <div class="wrap-2"> 
+                        <button type="submit">
+                             Google
+                        </button><button type="submit">
+                        Facebook
+                    </button> 
+                    </div> -->
+
+
+                    <div class="button-container">
+                        <button class="button button-primary">Google</button>
+                        <button class="button button-secondary">Facebook</button>
+</div>
+            </form>
+
+            <p>Not registered?<br>
+                <a href="#" style="text-decoration: none;">
+                    Create an account
+                </a>
+            </p>
+        </div>
+    </body>
+
+    </html>
+
+
+
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
